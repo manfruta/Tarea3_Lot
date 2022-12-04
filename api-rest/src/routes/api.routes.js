@@ -4,7 +4,7 @@ import { createCompany, getCompany } from "../controllers/company.controller";
 
 import { createLocacion, getLocation, getAllLocation, putLocation, deleteLocation } from "../controllers/location.controllers";
 import { createSensor, getAllSensor, getSensor, putSensor, deleteSensor } from "../controllers/sensor.controllers";
-import { createSensorData, getSensorData, deleteSensorData } from "../controllers/sensor.Data.controllers";
+import { createSensorData, getSensorData, deleteSensorData } from "../controllers/sensor.data.controllers";
 
 // import middlewares from "../middlewares";
 import { verifyToken } from "../middlewares/verifyToken";
